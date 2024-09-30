@@ -38,6 +38,15 @@ export default function RecipeDetailScreen(props) {
             <HeartIcon size={hp(3.5)} strokeWidth={4.5} color={isFavourite?"red":"gray"} ></HeartIcon>
         </TouchableOpacity>
       </View>
+      <View>
+          <Text style={{padding:20,fontWeight:"bold"}}> TÓM TẮT VỀ MÓN ĂN</Text>
+      </View>
+      <View>
+          <Text style={{padding:20,fontWeight:'500'}}> Nội dung: ...</Text>
+      </View>
+      <View>
+          <Text style={{padding:20,fontWeight:'500'}}> Công thức: ...</Text>
+      </View>
     </ScrollView>
   );
 }
